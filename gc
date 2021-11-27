@@ -1,0 +1,11 @@
+:
+# Kurzskript fuer die gcc-Uebersetzung
+# 17.04.2017: Ergaenzung -ansi -Wpedantic fuer Ur-C-Warnungen
+
+prog=`basename $1 '.c'`
+echo
+
+echo "gcc -Wall -o $prog $prog.c"
+gcc -Wall -o $prog $prog.c
+#echo "gcc -ansi -Wpedantic -Wall -o $prog $prog.c"
+#gcc -ansi -Wpedantic -Wall -o $prog $prog.c

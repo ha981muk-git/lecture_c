@@ -1,0 +1,6 @@
+
+# .bash_aliases Erweiterung zum Umsetzen des Pfades (Ergaenzung aktuelles Verzeichnis . als erstes Suchverzeichnis)
+
+PATH=.:$HOME/HS_Worms/util:$PATH
+export PATH
+
